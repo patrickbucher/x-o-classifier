@@ -46,14 +46,14 @@ prediction:
 
 There is also demo data available:
 
-[demo-o.png](demo-o.png)
+![demo-o.png](demo-o.png)
 
     $ ./demo.py demo-o.png
     demo-o.png:
         P("x")=0.07%
         P("o")=99.93%
 
-[demo-x.png](demo-x.png)
+![demo-x.png](demo-x.png)
 
     $ ./demo.py demo-x.png
     demo-x.png:
