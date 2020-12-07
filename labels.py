@@ -3,7 +3,7 @@
 import os
 
 with open('labels.csv', 'w') as csv:
-    directory = 'png'
+    directory = 'train'
     csv.write('path,label\n')
     for f in sorted(os.listdir(directory)):
         path = os.path.join(directory, f)
