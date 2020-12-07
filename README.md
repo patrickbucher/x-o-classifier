@@ -59,3 +59,10 @@ There is also demo data available:
     demo-x.png:
         P("x")=99.85%
         P("o")=0.15%
+
+![demo-y.png](demo-y.png)
+
+    $ ./demo.py demo-y.png
+    demo-y.png:
+        P("x")=87.36%
+        P("o")=12.64%
