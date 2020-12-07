@@ -20,6 +20,8 @@ weights_file = 'weights.csv'
 theta = np.loadtxt(weights_file, delimiter=',')
 
 x = (image - image.mean()) / image.std()
-is_x = sigmoid(x.dot(theta)).round()
+is_x = sigmoid(x.dot(theta))
 is_o = 1 - is_x
-print(f'{imagefile}: {is_x * 100}% "x", {is_o * 100}% "o"')
+print(f'{imagefile}:')
+print(f'\tP("x")={is_x * 100:.2f}%')
+print(f'\tP("o")={is_o * 100:.2f}%')
