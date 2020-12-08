@@ -3,6 +3,17 @@
 This is a little machine learning demo to classify images showing either the
 letter `x` or `o`. The images are stored as greyscale 16x16 pixel PNGs.
 
+## Setup
+
+Create a virtual environment and activate it:
+
+    $ python3 -m venv env
+    $ . env/bin/activate
+
+Install the requirements:
+
+    $ pip install -r requirements.txt --upgrade pip
+
 ## Training Data
 
 The training data is stored in the `train/` folder. The files have names like
