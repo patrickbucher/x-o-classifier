@@ -44,32 +44,32 @@ prediction:
           P("x")=0.07%
           P("o")=99.93%
 
-There is also demo data available:
+There is also demo data available in the folder `demo/`:
 
-![demo-o.png](demo-o.png)
+![demo-o.png](demo/demo-o.png)
 
-    $ ./demo.py demo-o.png
+    $ ./demo.py demo/demo-o.png
     demo-o.png:
         P("x")=0.07%
         P("o")=99.93%
 
-![demo-x.png](demo-x.png)
+![demo-x.png](demo/demo-x.png)
 
-    $ ./demo.py demo-x.png
+    $ ./demo.py demo/demo-x.png
     demo-x.png:
         P("x")=99.85%
         P("o")=0.15%
 
-![demo-y.png](demo-y.png)
+![demo-y.png](demo/demo-y.png)
 
-    $ ./demo.py demo-y.png
+    $ ./demo.py demo/demo-y.png
     demo-y.png:
         P("x")=87.36%
         P("o")=12.64%
 
-![demo-xo.png](demo-xo.png)
+![demo-xo.png](demo/demo-xo.png)
 
-    $ ./demo.py demo-xo.png
+    $ ./demo.py demo/demo-xo.png
     demo-xo.png:
         P("x")=71.32%
         P("o")=28.68%
