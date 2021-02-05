@@ -52,5 +52,5 @@ accuracy = correct / len(labels_one_hot['x'])
 print(f'accuracy={accuracy:.3f}')
 
 weights_file = 'weights.csv'
-np.savetxt('weights.csv', theta, delimiter=',')
+np.savetxt(weights_file, theta, delimiter=',')
 print(f'saved weights {theta} as CSV to {weights_file}')

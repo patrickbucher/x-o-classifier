@@ -24,7 +24,7 @@ labels_one_hot = {l: (labels == l).astype(int) for l in values}
 
 weights_file = 'weights.csv'
 theta = np.loadtxt(weights_file, delimiter=',')
-print(f'loaded weights {theta} as CSV to {weights_file}')
+print(f'loaded weights {theta} from {weights_file}')
 
 x = (inputs - inputs.mean()) / inputs.std()
 predictions = sigmoid(x.dot(theta)).round()
